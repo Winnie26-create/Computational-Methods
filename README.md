@@ -1,7 +1,7 @@
 # Computational-Methods
 
 This repository implements a structured quantitative finance workflow covering **model calibration, stochastic simulation, and portfolio construction**.  
-The project was completed as part of a **graduate-level quantitative finance course** and focuses on translating theoretical models into simulation-based portfolio insights for risk-aware decision-making.
+The project was completed as a group project for a graduate-level quantitative finance course and focuses on translating theoretical models into simulation-based portfolio insights for risk-aware decision-making.
 
 ---
 
@@ -33,11 +33,11 @@ The analysis follows a three-stage process commonly used in quantitative finance
 
 This folder contains reusable Python modules supporting simulation and numerical analysis.
 
-- stock_price_simulation.py — Simulates stock price paths under the calibrated Heston model  
-- monte_carlo.py — Runs Monte Carlo simulations to generate payoff and return distributions  
-- acuire_stock_and_option_price.py — Retrieves stock prices and option inputs for modeling  
-- covariance_mat.py — Computes covariance and correlation matrices from simulated returns  
-- lagrange_polynomial.py — Implements numerical interpolation methods used in calibration and pricing  
+- **stock_price_simulation.py** — Simulates stock price paths under the calibrated Heston model  
+- **monte_carlo.py**  — Runs Monte Carlo simulations to generate payoff and return distributions  
+- **acuire_stock_and_option_price.py** — Retrieves stock prices and option inputs for modeling  
+- **covariance_mat.py** — Computes covariance and correlation matrices from simulated returns  
+- **lagrange_polynomial.py** — Implements numerical interpolation methods used in calibration and pricing  
 
 ---
 
